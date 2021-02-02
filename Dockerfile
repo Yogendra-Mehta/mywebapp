@@ -3,5 +3,5 @@ MAINTAINER ymcomatz@gmail.com
 WORKDIR /usr/local/tomcat/webapps
 RUn mkdir hello
 WORKDIR hello
-COPY myapp .
+COPY mywebapp .
 EXPOSE 8080
